@@ -10,4 +10,10 @@
         name: testing
         api_version: v1
         kind: Namespace
-        state: present
+
+     - name: Create another k8s namespace
+      kubernetes.core.k8s:
+        name: testing2
+        api_version: v1
+        kind: Namespace
+        state: present       state: present
