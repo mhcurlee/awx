@@ -11,7 +11,7 @@
         api_version: v1
         kind: Namespace
 
-     - name: Create another k8s namespace
+    - name: Create another k8s namespace
       kubernetes.core.k8s:
         name: testing2
         api_version: v1
